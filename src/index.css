@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 60px;
+  background-color: rgb(214, 212, 214);
+}
+button {
+  font-size: 1rem;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  width: 120px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  height: 30px;
+  border-radius: 10px;
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  max-height: 180px;
+  max-width: 100%;
+}
+.title {
+  text-align: center;
 }
